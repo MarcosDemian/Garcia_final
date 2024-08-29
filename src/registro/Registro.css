@@ -1,0 +1,44 @@
+.container-formulario{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items:center ;
+  background-image: url("../../public/tienda.webp");
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 50%;
+  padding: 0 1rem;
+  background-color: rgb(255, 255, 190);
+  border-radius: 5px;
+}
+
+.formulario h3, h2{
+  margin: 1rem 0;
+}
+
+label, input{
+  margin: .5rem 0;
+}
+
+.formulario div{
+  display: flex;
+  flex-direction: initial;
+  margin: 1rem 0;
+}
+
+.botones{
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: .5rem;
+  margin: .5rem;
+  border-radius: 2px;
+  font-weight: bold;
+}
